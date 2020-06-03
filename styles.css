@@ -52,7 +52,7 @@ html, body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .2);
-    background-image: url("images/background-orange.jpg");
+    background-image: url("images/orange-tree.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 20px;
