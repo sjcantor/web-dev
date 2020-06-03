@@ -3,21 +3,21 @@
     <head>
         <title>Oranges | About</title>
         <meta name="description" contents="This is the description">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="store.html">Store</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Oranges</h1>
+            <h1 class="orange-title orange-title-large">Oranges</h1>
         </header>
-        <section>
-            <h2>About</h2>
+        <section class="content-section container">
+            <h2 class="section-header">About</h2>
             <p>The orange is the fruit of various citrus species in 
                 the family Rutaceae (see list of plants known as orange); 
                 it primarily refers to Citrus × sinensis, native to China.
@@ -26,12 +26,12 @@
                 The sweet orange reproduces asexually (apomixis through 
                 nucellar embryony); varieties of sweet orange arise 
                 through mutations.</p>
+            <img  class="about-oranges-image" src="images/orange.jpg">
             <p>The orange is a hybrid between pomelo (Citrus maxima) 
                 and mandarin (Citrus reticulata). The chloroplast 
                 genome, and therefore the maternal line, is that of 
                 pomelo. The sweet orange has had its full genome 
                 sequenced.</p>
-            <img src="images/orange.jpg" alt="Orange Full and Sliced">
             <p>The orange originated in Ancient China and the earliest 
                 mention of the sweet orange was in Chinese literature 
                 in 314 BC. As of 1987, orange trees were found to 
@@ -45,22 +45,24 @@
                 worldwide, with Brazil producing 24% of the world 
                 total, followed by China and India.</p>
         </section>
-        <footer>
-            <h3>Oranges</h3>
-            <ul>
-                <li><a href="https://facebook.com" target="_blank">
-                        <img src="images/Facebook Logo.png">
-                    </a>
-                </li>
-                <li><a href="https://spotify.com" target="_blank">
-                        <img src="images/Spotify Logo.png">
-                    </a>
-                </li>
-                <li><a href="https://youtube.com" target="_blank">
-                        <img src="images/YouTube Logo.png">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="orange-title">Oranges</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="https://facebook.com" target="_blank">
+                            <img src="images/Facebook Logo.png">
+                        </a>
+                    </li>
+                    <li><a href="https://spotify.com" target="_blank">
+                            <img src="images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li><a href="https://youtube.com" target="_blank">
+                            <img src="images/YouTube Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

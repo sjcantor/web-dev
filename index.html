@@ -3,68 +3,61 @@
     <head>
         <title>Oranges</title>
         <meta name="description" contents="This is the description">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="store.html">Store</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Oranges</h1>
-            <button type="button">Get the Latest Album</button>
-            <br><br>
-            <button type="button">&#9658;</button>
-            <!-- TODO: Add background header image -->
+            <h1 class="orange-title orange-title-large">Oranges</h1>
+            <div class="container">
+                <button class="btn btn-header" type="button">Random Orange Fact</button>
+            </div>
+            <!-- <button class="btn btn-header btn-play" type="button">&#9658;</button> -->
         </header>
-        <section>
-            <h2>Articles</h2>
+        <section class="content-section">
+            <h2 class="section-header">Articles</h2>
             <div>
-                <div>
-                    <strong>Orange (fruit)</strong>
-                    &lt;&gt;
-                    <span>Wikipedia</span>
-                    &lt;&gt;
-                    <button type="button">Read Article</button>
-                    <hr>
+                <div class="article-row">
+                    <span class="article-item article-name">Orange (fruit)</span>
+                    <span class="article-item article-source">Wikipedia</span>
+                    <button class="article-item btn article-btn" type="button">Read Article</button>
                 </div>
-                <div>
-                    <strong>What to know about oranges</strong>
-                    &lt;&gt;
-                    <span>MedicalNewsToday</span>
-                    &lt;&gt;
-                    <button type="button">Read Article</button>
-                    <hr>
+                <div class="article-row">
+                    <span class="article-item article-name">What to know about oranges</span>
+                    <span class="article-item article-source">MedicalNewsToday</span>
+                    <button class="article-item btn article-btn" type="button">Read Article</button>
                 </div>
-                <div>
-                    <strong>List of orange fruits</strong>
-                    &lt;&gt;
-                    <span>leaf</span>
-                    &lt;&gt;
-                    <button type="button">Read Article</button>
-                    <hr>
+                <div class="article-row">
+                    <span class="article-item article-name">List of orange fruits</span>
+                    <span class="article-item article-source">leaf.tv</span>
+                    <button class="article-item btn article-btn" type="button">Read Article</button>
                 </div>
             </div>
         </section>        
-        <footer>
-            <h3>Oranges</h3>
-            <ul>
-                <li><a href="https://facebook.com" target="_blank">
-                        <img src="images/Facebook Logo.png">
-                    </a>
-                </li>
-                <li><a href="https://spotify.com" target="_blank">
-                        <img src="images/Spotify Logo.png">
-                    </a>
-                </li>
-                <li><a href="https://youtube.com" target="_blank">
-                        <img src="images/YouTube Logo.png">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="orange-title">Oranges</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="https://facebook.com" target="_blank">
+                            <img src="images/Facebook Logo.png">
+                        </a>
+                    </li>
+                    <li><a href="https://spotify.com" target="_blank">
+                            <img src="images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li><a href="https://youtube.com" target="_blank">
+                            <img src="images/YouTube Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
